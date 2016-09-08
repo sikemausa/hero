@@ -1,0 +1,311 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #F3F3F2;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:black;
+  height: 1px;
+}
+
+
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.6em;
+  text-align: center;
+  margin: 20px;
+}
+
+header h1 {
+  text-indent:-9999px;
+  float:left;
+  background: url("images/MSlogo.png") no-repeat;
+  width:74px;
+  height:56px;
+}
+
+header {
+background-color: rgb(60, 149, 225);
+  height: 56px;
+  border-bottom: 2px solid black;
+}
+
+
+#home {
+  text-align: center;
+}
+
+#name-title-location {
+  padding-top: 200px;
+  color: white;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+.pgnav {
+  min-width: 400px;
+  float: left;
+}
+
+.socialmedia, .headersocialmedia {
+  float: right;
+  display:
+}
+
+nav a {
+    color: #F3F3F2;
+    text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px 15px;
+}
+
+nav li:hover {
+  background-color: #61D7D9;
+}
+
+#home {
+background: url("images/flatirons1.jpg") no-repeat;
+height:600px;
+width: 100%;
+background-size: cover;
+}
+
+#about {
+  background-color: rgb(60, 149, 225);
+  color: white;
+  width: 100$;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-size: 1.1em;
+  margin: auto;
+  line-height: 1.3em;
+}
+
+.experience-and-testimonials {
+  width: 90%;
+  text-align: center;
+  font-size: 1.1em;
+  margin: auto;
+  line-height: 1.3em;
+}
+#about h2 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: auto;
+  /*text-shadow: 2px 2px 4px #000000;*/
+
+}
+
+#about h3 {
+  padding-bottom: 20px;
+  margin: auto;
+  /*text-shadow: 2px 2px 4px #000000;*/
+}
+
+#about-paragraph {
+  width: 70%;
+  display: inline-block;
+  /*text-shadow: 2px 2px 4px #000000;*/
+  float: right;
+}
+
+#testimonials {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: .97em;
+  line-height: 1.2em;
+  margin-bottom: 50px;
+    /*text-shadow: 2px 2px 4px grey;*/
+}
+
+#testimonials h2 {
+  padding-bottom:20px;
+}
+
+#testimonials p {
+  margin: 20px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#testimonials cite{
+  font-weight: bolder;
+}
+
+#experience {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  width: 40%;
+  float: right;
+  display: inline-block;
+  height: 350px;
+  border-radius: 30px 30px 0px 0px;
+  margin-top: 20px;
+  /*text-shadow: 2px 2px 4px grey;*/
+}
+
+#education {
+background-color: rgb(60, 149, 225);
+width: 40%;
+padding-top: 20px;
+float: right;
+display: inline-block;
+float: right;
+height: 350px;
+border-radius: 0px 00px 30px 30px;
+margin-bottom: 50px;
+color: white;
+/*text-shadow: 2px 2px 4px #000000;*/
+}
+
+#education h3 {
+  font-size: 1em;
+}
+
+#experience h3 {
+  font-size: 1em;
+}
+
+.footnav {
+  float: left;
+}
+#footernav {
+  display: block;
+  bottom: -3040px;
+  background-color: black;
+  height: 56px;
+  color: black;
+  width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about {
+  background-color: rgb(60, 149, 225);
+  color: white;
+  width: 98%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  border-radius: 25px;
+}
+
+#about-paragraph {
+  width: 100%;
+  display: inline-block;
+  /*text-shadow: 2px 2px 4px #000000;*/
+  float: right;
+}
+
+#testimonials {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: .97em;
+  line-height: 1.2em;
+  margin-bottom: 50px;
+    /*text-shadow: 2px 2px 4px grey;*/
+}
+
+#education {
+background-color: rgb(60, 149, 225);
+width: 100%;
+padding-top: 20px;
+float: right;
+float: right;
+height: 350px;
+border-radius: 0px 00px 30px 30px;
+margin-bottom: 50px;
+color: white;
+/*text-shadow: 2px 2px 4px #000000;*/
+}
+
+#experience {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  float: right;
+  display: inline-block;
+  height: 350px;
+  border-radius: 30px 30px 0px 0px;
+  margin-top: 20px;
+  /*text-shadow: 2px 2px 4px grey;*/
+}
+
+nav li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+header {
+  width: 100%;
+}
+
+.footnav {
+  display: none;
+}
+
+.headersocialmedia{
+  display: none;
+}
+
+.socialmedia {
+  float: none;
+  background-color: white;
+  text-align: center;
+}
+
+header h1 {
+display: none;
+}
+
+}

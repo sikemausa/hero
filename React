@@ -1,0 +1,29 @@
+function Application() {
+  return <h1>Hello World</h1>
+}
+
+ReactDom.render(<Application />, document.querySelector('.application'));
+
+// Without props \/
+
+function Application({name, message}) {
+  return <h1>Hello {name}, {message}</h1>
+}
+
+ReactDom.render(<Application name="Parker" message="Welcome to class" />, document.querySelector('.application'));
+
+// With props \/
+
+function Application(props) {
+  return <h1>Hello {props.name}</h1>
+}
+
+ReactDom.render(<Application name="Parker" message="Welcome to class" />, document.querySelector('.application'));
+
+With arrow function \/
+
+const Application = ({name, message}) => {
+  return <h1>Hello {name}, {message}</h1>
+}
+
+ReactDom.render(<Application name="Parker" message="Welcome to class" />, document.querySelector('.application'));
